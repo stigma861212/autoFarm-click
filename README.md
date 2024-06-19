@@ -1,5 +1,7 @@
 # autoFarm-click
 
+Automatically launch selected Steam games, initiate them upon opening, and enable multi-game setup to complete in one go.
+
 ## Install
 ```
 pip install pyautogui
@@ -21,4 +23,3 @@ You can set up multiple games. (see `config.example.json` content)
 - **clicks**: Click count.
 
 When configuration is complete, rename the file from `config.example.json` to `config.json`.
-
