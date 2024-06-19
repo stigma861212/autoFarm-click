@@ -23,3 +23,7 @@ You can set up multiple games. (see `config.example.json` content)
 - **clicks**: Click count.
 
 When configuration is complete, rename the file from `config.example.json` to `config.json`.
+
+## Start
+
+open `start.bat`, then wait until end.
