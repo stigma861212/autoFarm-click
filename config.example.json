@@ -1,0 +1,14 @@
+{
+    "files": [
+        {
+            "exe": "GameName",
+            "path": "Disk:\\Users\\UsersName\\floder\\GameName.url",
+            "clicks": 10
+        },
+        {
+            "exe": "GameName",
+            "path": "Disk:\\Program Files (x86)\\Steam\\steamapps\\common\\GameName\\GameName.exe",
+            "clicks": 20
+        }
+    ]
+}
