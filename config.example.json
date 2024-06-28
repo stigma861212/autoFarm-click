@@ -9,6 +9,11 @@
             "exe": "GameName",
             "path": "Disk:\\Program Files (x86)\\Steam\\steamapps\\common\\GameName\\GameName.exe",
             "clicks": 20
+        },
+        {
+            "exe": "GameName",
+            "path": "steam://rungameid/gameid",
+            "clicks": 0
         }
     ]
 }

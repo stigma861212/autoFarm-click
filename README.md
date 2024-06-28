@@ -18,7 +18,7 @@ You can set up multiple games. (see `config.example.json` content)
 
 - **exe**: GameName (Without file extensions).
 
-- **path**: Your file location (absolute path) needs double backslashes. You can also use the desktop shortcut created by Steam.
+- **path**: Your file location (absolute path) needs double backslashes. You can also use the desktop shortcut created by Steam. If the game cannot be launched by directly executing the exe file and you do not want to create a shortcut, you can open it by entering steam://rungameid/gameid in the path, where gameid is the game's App ID, which can be found at [steamdb](<https://steamdb.info/>).
 
 - **clicks**: Click count.
 
