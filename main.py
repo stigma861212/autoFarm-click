@@ -22,7 +22,10 @@ def read_value():
         clicks = file["clicks"]
         print(f"exe: {exe}, path: {path}")
         
-        process = subprocess.Popen([path], shell=True)
+        if "steam" in path:
+            process = subprocess.run(["start", path], shell=True, check=True)
+        else:
+            process = subprocess.Popen([path], shell=True)
         
         # try to wait for second open exe.
         # reason is idw why steam open original exe file will close first exe then open again.
@@ -31,10 +34,13 @@ def read_value():
             time.sleep(10)
         
         found_pid = find_file(exe)
+        print("try to wait for passing unity loading logo.")
         time.sleep(3)  # try to wait for passing unity loading logo.
         click_process(exe,clicks)
+        print("try to wait for the drop items appear.")
         time.sleep(3)  # try to wait for the drop items appear.
         terminate_process(found_pid)
+        print("not necessary, just my cmd vision demand.")
         time.sleep(3)  # not necessary, just my cmd vision demand.
         print("end")
 
